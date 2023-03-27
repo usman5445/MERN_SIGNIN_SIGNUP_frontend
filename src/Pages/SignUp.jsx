@@ -63,7 +63,7 @@ function SignUpPage() {
           massage: err.response?.data?.message || "Something went wrong.",
         });
         setIsLoading(false);
-        console.log(err);
+        //console.log(err);
       });
   }
   return (

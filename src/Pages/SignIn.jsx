@@ -44,7 +44,7 @@ function SignInPage() {
         setIsLoading(false);
       })
       .catch((err) => {
-        console.log(err);
+        //console.log(err);
         setAlertData({
           isVisible: true,
           isDanger: true,
